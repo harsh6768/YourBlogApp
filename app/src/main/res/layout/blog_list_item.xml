@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/blog_profile_imgId"
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@mipmap/profile_tuhumb"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.027"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.06" />
+
+            <TextView
+                android:id="@+id/blog_usernameId"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/username"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.009"
+                app:layout_constraintStart_toEndOf="@+id/blog_profile_imgId"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/blog_data_of_postId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/_11_8_2018"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.026"
+                app:layout_constraintStart_toEndOf="@+id/blog_profile_imgId"
+                app:layout_constraintTop_toBottomOf="@+id/blog_usernameId" />
+
+            <ImageView
+                android:id="@+id/blog_post_imgId"
+                android:layout_width="0dp"
+                android:layout_height="168dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blog_profile_imgId"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@mipmap/blog_image_thumb" />
+
+            <TextView
+                android:id="@+id/blog_descriptionId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/description_is_just_a_kind_of_perception_that_you_see_to_understand_the_basic_information_about_anything"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blog_post_imgId"
+                app:layout_constraintVertical_bias="0.01" />
+
+            <ImageView
+                android:id="@+id/blog_likesBtnId"
+                android:layout_width="48dp"
+                android:layout_height="42dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/blog_descriptionId"
+                app:srcCompat="@drawable/ic_favorite_gray_24dp" />
+
+            <TextView
+                android:id="@+id/blog_likesId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:text="0 Likes"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/blog_likesBtnId"
+                app:layout_constraintTop_toBottomOf="@+id/blog_descriptionId"
+                app:layout_constraintVertical_bias="0.0" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>

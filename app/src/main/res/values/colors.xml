@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7dd3d9</color>
+    <color name="colorPrimaryDark">#47b6cf</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="login_reg_color">#f2543b</color>
+    <color name="transparentWhite">#f9f7f3f3</color>
+    <color name="lightColor">#FF97CDCF</color>
+
+    <color name="purple">#FF7434E2</color>
+    <color name="green">#47b6cf</color>
+</resources>

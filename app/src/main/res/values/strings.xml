@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">BlogApp</string>
+    <string name="log_reg_bt">Need New Account?</string>
+    <string name="login_bt">Login to Account</string>
+    <string name="reg_emailEdittext">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reg_enter_email">Enter Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="post">Post</string>
+    <string name="newpost">New Post</string>
+    <string name="add_description">Add Description...</string>
+    <string name="addDescption">Add Description</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_is_just_a_kind_of_perception_that_you_see_to_understand_the_basic_information_about_anything">Description is just a kind of perception that you see to understand the basic information about anything</string>
+    <string name="_11_8_2018">11/8/2018</string>
+    <string name="harsh_chaurasiya">Harsh Chaurasiya</string>
+    <string name="username">Username</string>
+</resources>
